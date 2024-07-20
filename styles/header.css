@@ -1,0 +1,45 @@
+.header-main{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(104, 161, 214, 0.918);
+  height: 70px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.home,
+.projects,
+.about{
+  height: 25px;
+  width: 30px;
+  margin-right: 10px;
+}
+.h-flex-1{
+  margin-left: 100px;
+}
+.about{
+  height: 30px;
+}
+.h-flex-2{
+  margin-right: 100px;
+}
+
+.h-flex-1,
+.h-flex-2,
+.h-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-weight: bold;
+}
+.tools{
+  font-size: 30px;
+  font-weight: 900;
+  background-color: aquamarine;
+}

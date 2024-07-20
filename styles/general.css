@@ -1,0 +1,15 @@
+body{
+  background-image: url("https://e0.pxfuel.com/wallpapers/906/391/desktop-wallpaper-ubuntu-blue-linux-blue.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial;
+  padding-top: 70px;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+button{
+  cursor: pointer;
+}

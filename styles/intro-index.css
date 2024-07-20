@@ -1,0 +1,257 @@
+.intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+@keyframes rotateLogo {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.my-logo {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin-right: 10px;
+  margin-left: 160px;
+  margin-top: -10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+  animation: rotateLogo 5s linear infinite;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 600px) {
+  .my-logo {
+    height: 150px;
+    width: 150px;
+    margin-left: 0px;
+    margin-top: 20px;
+    animation: rotateLogo 5s linear infinite;
+  }
+}
+
+.languages{
+  width: 450px;
+  height: 250px;
+  margin-top: -30px;
+}
+
+.my-neme {
+  height: 550px;
+  margin-top: -60px;
+  margin-left: 150px;
+  padding-right: 50px;
+}
+
+.logo-frame {
+  height: 320px;
+  position: absolute;
+  top: 150px;
+  margin-left: 100px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+}
+.our-projects,
+.technologies{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(124, 96, 11, 0.274);
+  justify-content: stretch;
+  max-width: 900px;
+  margin-left: 120px;
+  padding: 50px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-radius: 10PX;
+  margin-bottom: 70px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+}
+.our-projects{
+  background-color: rgba(73, 122, 167, 0.589);
+  padding-bottom: 40px;
+}
+.tools{
+  font-size: 15px;
+  font-weight: 900;
+  background-color: rgba(219, 158, 139, 0.37);
+  text-align: center;
+  padding: 6px;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+.tools-description{
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+}
+.tools-description-1{
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.head-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes zoom {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.start {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  animation: zoom 1s infinite;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.35);
+}
+.left-intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.intro-buttons{
+  display: flex;
+  flex-direction: row;
+  margin-top: -170px;
+  margin-bottom: 100px;
+}
+.learn,
+.contact-us {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 20px;
+  justify-content: center;
+  padding-right: 20px;
+  margin-left: 100px;
+  background-color: rgba(119, 175, 228, 0.493);
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease; /* Added transition for smooth effect */
+  cursor: pointer;
+}
+
+.learn:hover,
+.contact-us:hover {
+  transform: scale(1.1); /* Zoom in effect */
+}
+
+.learn{
+  margin-left: 30px;
+}
+.type-of-projects{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: stretch;
+  max-width: 900px;
+  margin-left: 120px;
+  padding: 50px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-radius: 10PX;
+  margin-bottom: 70px;
+
+}
+.projects-grid{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  justify-content: center;
+  column-gap: 80px;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  padding: 40px;
+  border-radius: 10px;
+}
+.pro-head{
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.project-img{
+  margin-bottom: 25px;
+}
+.pro-name{
+  font-size: 17px;
+  font-weight: 700;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 200px;
+  margin-bottom: 80px;
+
+}
+@keyframes zoomInOut {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.insta,
+.yt,
+.git,
+.lin {
+  animation: zoomInOut 2s infinite;
+}
+
+.insta {
+  height: 70px;
+  width: 70px;
+  margin-right: 100px;
+  margin-bottom: -15px;
+  animation-delay: 0s;
+}
+
+.yt {
+  height: 50px;
+  width: 50px;
+  margin-right: 100px;
+  animation-delay: 0.5s;
+}
+
+.git {
+  height: 50px;
+  width: 50px;
+  margin-right: 100px;
+  animation-delay: 1s;
+}
+
+.lin {
+  height: 50px;
+  width: 50px;
+  margin-right: 100px;
+  animation-delay: 1.5s;
+}
+
+.follow{
+  font-weight: 900;
+  margin-bottom: 50px;
+  margin-left: -80px;
+}
